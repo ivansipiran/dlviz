@@ -2,6 +2,7 @@
 
 from .perceptron import perceptron_interactivo
 from .mlp_xor import mlp_xor_interactivo
+from .backprop import backprop_interactivo
 from .optim import optimizadores_interactivo
 from .atencion import atencion_interactiva
 from .conv import conv_interactiva
@@ -20,6 +21,7 @@ from .positional_encoding import positional_encoding_interactiva
 __all__ = [
     "perceptron_interactivo",
     "mlp_xor_interactivo",
+    "backprop_interactivo",
     "optimizadores_interactivo",
     "atencion_interactiva",
     "conv_interactiva",
@@ -36,4 +38,4 @@ __all__ = [
 
 ]
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
